@@ -13,6 +13,7 @@ export function Navigation() {
   const navLinks = [
     { href: "/", label: t("nav.about") },
     { href: "/experience", label: t("nav.experience") },
+    { href: "/chat", label: t("nav.chat") },
   ]
 
   return (

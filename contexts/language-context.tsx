@@ -15,6 +15,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Navigation
     "nav.about": "概要",
     "nav.experience": "経歴",
+    "nav.chat": "チャット",
 
     // Hero
     "hero.title": "シニアフルスタックエンジニア",
@@ -74,6 +75,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Navigation
     "nav.about": "About",
     "nav.experience": "Experience",
+    "nav.chat": "Chat",
 
     // Hero
     "hero.title": "Senior Full-stack Engineer",

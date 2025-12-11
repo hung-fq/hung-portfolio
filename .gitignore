@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Build output
+.next/
+out/
+dist/
+
+# Production
+build/
+
+# Environment variables
+.env
+.env.*        # ví dụ: .env.local, .env.development
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Optional editor folders
+.idea/
+*.swp
+
+# Optional: Mac metadata
+*.DS_Store
+
+# Optional: local runtime data
+.vercel/
