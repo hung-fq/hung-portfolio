@@ -1,21 +1,21 @@
 "use client"
 
 import { Card, CardContent } from "@/components/ui/card"
-import { Mail, Github, Linkedin, MessageCircle, ArrowUpRight } from "lucide-react"
+import { Mail, Github, Globe, Phone, ArrowUpRight } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
 
 const contactLinks = [
+  { icon: Phone, label: "Phone", href: "tel:+84973546526", username: "+84-973-546-526" },
   { icon: Mail, label: "Email", href: "mailto:hungfq@gmail.com", username: "hungfq@gmail.com" },
   { icon: Github, label: "GitHub", href: "https://github.com/hung-fq", username: "github.com/hung-fq" },
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/hungfq", username: "linkedin.com/in/hungfq" },
-  { icon: MessageCircle, label: "Skype", href: "skype:hungfq?chat", username: "hungfq" },
+  { icon: Globe, label: "Portfolio", href: "https://v0-hungfq.vercel.app/", username: "v0-hungfq.vercel.app" },
 ]
 
 export function ContactSection() {
   const { t } = useLanguage()
 
   return (
-    <section className="py-20 md:py-24 pb-28">
+    <section className="py-6 md:py-8 pb-10">
       <div className="flex items-center gap-4 mb-10">
         <span className="w-8 h-px bg-primary/40" />
         <h2 className="text-[11px] font-medium tracking-[0.2em] uppercase text-muted-foreground">

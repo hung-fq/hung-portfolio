@@ -21,7 +21,7 @@ export function ProfileSection() {
   ]
 
   return (
-    <section className="py-20 md:py-24">
+    <section className="py-6 md:py-8">
       <div className="flex items-center gap-4 mb-10">
         <span className="w-8 h-px bg-primary/40" />
         <h2 className="text-[11px] font-medium tracking-[0.2em] uppercase text-muted-foreground">

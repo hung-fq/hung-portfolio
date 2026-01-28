@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
 import { useLanguage } from "@/contexts/language-context"
 import { LanguageToggle } from "./language-toggle"
+import { Download } from "lucide-react"
 
 export function Navigation() {
   const pathname = usePathname()
@@ -13,7 +14,6 @@ export function Navigation() {
   const navLinks = [
     { href: "/", label: t("nav.about") },
     { href: "/experience", label: t("nav.experience") },
-    { href: "/chat", label: t("nav.chat") },
   ]
 
   return (
@@ -44,7 +44,17 @@ export function Navigation() {
               </li>
             ))}
           </ul>
-          <LanguageToggle />
+          <div className="flex items-center gap-3">
+            <a
+              href="/CV/Pham_Quoc_Hung_CV_JP.docx"
+              className="inline-flex items-center gap-2 rounded-full border border-border/50 px-3 py-1.5 text-[11px] font-medium tracking-wide text-muted-foreground transition-colors hover:text-foreground hover:border-border"
+              download
+            >
+              <Download className="h-3.5 w-3.5" strokeWidth={1.5} />
+              CV
+            </a>
+            <LanguageToggle />
+          </div>
         </div>
       </nav>
     </header>
