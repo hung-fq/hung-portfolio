@@ -8,7 +8,7 @@ const contactLinks = [
   { icon: Phone, label: "Phone", href: "tel:+84973546526", username: "+84-973-546-526" },
   { icon: Mail, label: "Email", href: "mailto:hungfq@gmail.com", username: "hungfq@gmail.com" },
   { icon: Github, label: "GitHub", href: "https://github.com/hung-fq", username: "github.com/hung-fq" },
-  { icon: Globe, label: "Portfolio", href: "https://v0-hungfq.vercel.app/", username: "v0-hungfq.vercel.app" },
+  { icon: Globe, label: "Portfolio", href: "https://hungfq.vercel.app/", username: "hungfq.vercel.app" },
 ]
 
 export function ContactSection() {

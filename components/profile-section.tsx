@@ -11,6 +11,7 @@ export function ProfileSection() {
     { icon: User, label: t("profile.nationality"), value: t("profile.nationality.value") },
     { icon: Calendar, label: t("profile.age"), value: "36" },
     { icon: MapPin, label: t("profile.location"), value: t("profile.location.value") },
+    { icon: Briefcase, label: t("profile.portfolio"), value: "hungfq.vercel.app" },
   ]
 
   const experienceItems = [
