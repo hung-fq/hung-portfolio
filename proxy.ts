@@ -3,6 +3,10 @@ import { NextResponse } from "next/server"
 import type { NextRequest } from "next/server"
 
 export default function proxy(request: NextRequest) {
+  if (process.env.BASIC_AUTH_ENABLED !== "true") {
+    return NextResponse.next()
+  }
+
   const basicAuth = request.headers.get("authorization")
 
   if (basicAuth?.startsWith("Basic ")) {
