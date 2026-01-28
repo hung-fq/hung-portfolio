@@ -1,7 +1,7 @@
 "use client"
 
 import { Card, CardContent } from "@/components/ui/card"
-import { User, Calendar, MapPin, Briefcase } from "lucide-react"
+import { User, Calendar, MapPin, Mail, Briefcase } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
 
 export function ProfileSection() {
@@ -11,7 +11,7 @@ export function ProfileSection() {
     { icon: User, label: t("profile.nationality"), value: t("profile.nationality.value") },
     { icon: Calendar, label: t("profile.age"), value: "36" },
     { icon: MapPin, label: t("profile.location"), value: t("profile.location.value") },
-    { icon: Briefcase, label: t("profile.portfolio"), value: "hungfq.vercel.app" },
+    { icon: Mail, label: t("profile.email"), value: t("profile.email.value") },
   ]
 
   const experienceItems = [

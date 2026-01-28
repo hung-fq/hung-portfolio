@@ -25,7 +25,7 @@ export function HeroSection() {
           <p className="max-w-lg text-base md:text-lg leading-[1.8] text-muted-foreground opacity-0 animate-fade-up animation-delay-100">
             {t("hero.description")}
           </p>
-          <div className="flex items-center justify-center rounded-2xl border border-border/40 bg-secondary/20 p-3 opacity-0 animate-fade-up animation-delay-150">
+          <div className="flex items-center justify-center rounded-2xl border border-border/40 bg-secondary/20 p-2 opacity-0 animate-fade-up animation-delay-150">
             <img
               src="/CV/Leo%20nui.jpg"
               alt="Leo nui"

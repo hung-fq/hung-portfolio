@@ -166,7 +166,9 @@ export function ExperienceTimeline() {
                 )}
               </CardHeader>
               <CardContent className="space-y-5 px-6 pb-6 md:px-8 md:pb-8">
-                <p className="text-[13px] leading-[1.8] text-muted-foreground">{t(project.descriptionKey)}</p>
+                <p className="text-[13px] leading-[1.8] text-muted-foreground whitespace-pre-line">
+                  {t(project.descriptionKey)}
+                </p>
                 {project.tasksKeys && (
                   <div className="space-y-2">
                     <p className="text-[11px] font-medium tracking-[0.2em] uppercase text-muted-foreground">

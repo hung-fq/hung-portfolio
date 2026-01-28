@@ -30,6 +30,8 @@ const translations: Record<Language, Record<string, string>> = {
     "profile.age": "年齢",
     "profile.location": "所在地",
     "profile.location.value": "ベトナム・ホーチミン市",
+    "profile.email": "メール",
+    "profile.email.value": "hungfq@gmail.com",
     "profile.experience": "経験概要",
     "profile.years.dev": "年 ソフトウェア開発",
     "profile.years.bse": "年 ブリッジSE",
@@ -93,7 +95,7 @@ const translations: Record<Language, Record<string, string>> = {
     "project.freelance.role": "フリーランス",
     "project.freelance.period": "2025年9月〜現在",
     "project.freelance.description":
-      "AI支援ツールを活用し、要件整理から設計・実装・デプロイまでを一貫して担当。最終判断は人が行う開発プロセスを採用。",
+      "AIコーディング支援ツールを活用し、Webアプリケーションの設計・実装・デプロイまでを一貫して担当。\n要件整理、画面設計、アーキテクチャ設計は人手で行い、実装フェーズにおいてAIを活用することで開発効率の向上を実現。",
     "project.freelance.tasks.1": "Webアプリケーションの設計および実装",
     "project.freelance.tasks.2": "AI支援ツールを用いたコーディング効率化",
     "project.freelance.tasks.3": "フロントエンド／バックエンド実装",
@@ -103,7 +105,7 @@ const translations: Record<Language, Record<string, string>> = {
     "project.school.role": "プロジェクトマネージャー",
     "project.school.period": "2022年7月〜2025年1月",
     "project.school.description":
-      "日本の学校向けに出席・成績・連絡・日誌などを管理するWebアプリケーション。教職員の業務効率化と情報共有を支援。",
+      "日本の学校運営を支援するWebアプリケーションの開発。\n出席管理、成績管理、連絡機能、日誌機能などの各種業務機能を提供し、\n教職員および関係者間の情報共有や業務効率化を目的としたシステムである。",
     "project.school.tasks.1": "プロジェクト計画および進行管理",
     "project.school.tasks.2": "見積作成、スケジュール管理",
     "project.school.tasks.3": "タスク／進捗管理",
@@ -114,7 +116,7 @@ const translations: Record<Language, Record<string, string>> = {
     "project.dj.role": "プロジェクトリーダー",
     "project.dj.period": "2021年10月〜2022年6月",
     "project.dj.description":
-      "BluetoothおよびMIDIによるデバイス通信を用い、DJコントローラーハードウェアを制御するモバイルアプリケーションを開発。",
+      "DJコントローラーと連携し、ハードウェア操作を制御・管理するモバイルアプリケーションの開発。\nBluetoothを介したデバイス通信およびMIDIプロトコルを用いた入力イベント処理、\n操作インターフェースの実装を行った。",
     "project.dj.tasks.1": "進捗管理、コードレビュー",
     "project.dj.tasks.2": "開発およびメンバーサポート",
 
@@ -122,7 +124,7 @@ const translations: Record<Language, Record<string, string>> = {
     "project.callcenter.role": "ブリッジSE",
     "project.callcenter.period": "2021年5月〜2021年9月",
     "project.callcenter.description":
-      "クラウド型コールセンターサービスの事前調査を担当。通話制御やシグナリングを中心に構成・技術検討を実施。",
+      "クラウド型コールセンターサービス構築に向けた事前調査フェーズを担当。\n通話制御やシグナリングを中心に、システム構成および技術的な実現可否の検討を行った。\n将来的な本開発を見据え、クラウド環境上での構成案や課題整理を実施した。",
     "project.callcenter.tasks.1": "要件整理、技術調査",
     "project.callcenter.tasks.2": "顧客折衝、進捗報告",
 
@@ -130,7 +132,7 @@ const translations: Record<Language, Record<string, string>> = {
     "project.music.role": "ブリッジSE",
     "project.music.period": "2018年10月〜2021年4月",
     "project.music.description":
-      "音楽・動画配信向けAndroid/iOSアプリの開発・運用。購入、ダウンロード、再生機能を備えたサービスを担当。",
+      "音楽・動画配信を提供するモバイルアプリケーション（Android／iOS）の開発・運用。\nコンテンツの購入、ダウンロード、再生機能を備え、ユーザー向けサービスとして提供されている。\n既存機能の保守・改善および新機能追加を担当した。",
     "project.music.tasks.1": "日本オンサイト対応",
     "project.music.tasks.2": "開発、テスト、コードレビュー",
     "project.music.tasks.3": "顧客対応",
@@ -139,7 +141,7 @@ const translations: Record<Language, Record<string, string>> = {
     "project.container.role": "PL / BSE",
     "project.container.period": "2018年3月〜2018年10月",
     "project.container.description":
-      "RancherとDockerを統合し、プロジェクト・ホスト・スタックなどのリソースを一元管理するWebシステムを構築。",
+      "ユーザーリクエストデータをもとに、Rancherサーバーと連携し、\nプロジェクト、ホスト、スタック、アカウント等のコンテナ関連リソースを\n一元的に作成・管理するWebサービスの構築を行った。",
     "project.container.tasks.1": "タスク・進捗管理",
     "project.container.tasks.2": "調査、テスト、コードレビュー",
     "project.container.tasks.3": "顧客対応",
@@ -148,7 +150,7 @@ const translations: Record<Language, Record<string, string>> = {
     "project.api.role": "ブリッジSE",
     "project.api.period": "2017年4月〜2018年2月",
     "project.api.description":
-      "AWSとNTT ECLを連携し、クラウドリソースを制御・管理するWebサービスを開発。",
+      "ユーザーリクエストデータをもとに、AWS、NTT ECLなどのクラウドサービス提供事業者と連携し、\n各種クラウドリソースを制御・連携するWebサービスの開発を行った。\n外部サービスとのAPI連携を通じて、クラウド環境上でのリソース操作および管理を実現した。",
     "project.api.tasks.1": "タスク・進捗管理",
     "project.api.tasks.2": "開発、テスト、コードレビュー",
     "project.api.tasks.3": "顧客対応",
@@ -157,7 +159,7 @@ const translations: Record<Language, Record<string, string>> = {
     "project.disaster.role": "開発者",
     "project.disaster.period": "2015年4月〜2016年11月",
     "project.disaster.description":
-      "災害時に安否情報の登録・検索を可能にするコミュニティ向けアプリケーションを設計・開発。",
+      "災害（地震、嵐等）発生時にインターネット接続が困難な状況を想定し、人々が政府サーバーに安否情報を登録・検索できる\nコミュニティ向けアプリケーションの開発を行った。\n非常時における安否情報の共有を目的とし、\n社会インフラを補完するシステムとしての役割を担う。",
     "project.disaster.tasks.1": "開発",
     "project.disaster.tasks.2": "テスト",
   },
@@ -180,6 +182,8 @@ const translations: Record<Language, Record<string, string>> = {
     "profile.age": "Age",
     "profile.location": "Location",
     "profile.location.value": "Ho Chi Minh City, Vietnam",
+    "profile.email": "Email",
+    "profile.email.value": "hungfq@gmail.com",
     "profile.experience": "Experience Summary",
     "profile.years.dev": "Years Software Development",
     "profile.years.bse": "Years Bridge SE",
@@ -244,7 +248,7 @@ const translations: Record<Language, Record<string, string>> = {
     "project.freelance.role": "Freelance",
     "project.freelance.period": "Sep 2025 - Present",
     "project.freelance.description":
-      "Delivered end-to-end web apps with AI-assisted coding, while keeping requirements and architecture decisions human-led.",
+      "Led end-to-end web app delivery using AI coding assistance, from design to implementation and deployment.\nHandled requirements, screen design, and architecture manually while improving development efficiency with AI in implementation.",
     "project.freelance.tasks.1": "Designed and implemented web applications",
     "project.freelance.tasks.2": "Improved coding efficiency with AI-assisted tools",
     "project.freelance.tasks.3": "Implemented front-end and back-end features",
@@ -254,7 +258,7 @@ const translations: Record<Language, Record<string, string>> = {
     "project.school.role": "Project Manager",
     "project.school.period": "Jul 2022 - Jan 2025",
     "project.school.description":
-      "Web application for Japanese schools covering attendance, grades, communication, and daily reports for staff efficiency.",
+      "Development of a web application supporting Japanese school operations.\nIt provides attendance, grades, messaging, and daily reports\nto improve collaboration and efficiency among staff and stakeholders.",
     "project.school.tasks.1": "Project planning and execution management",
     "project.school.tasks.2": "Estimation and schedule management",
     "project.school.tasks.3": "Task and progress tracking",
@@ -265,7 +269,7 @@ const translations: Record<Language, Record<string, string>> = {
     "project.dj.role": "Project Leader",
     "project.dj.period": "Oct 2021 - Jun 2022",
     "project.dj.description":
-      "Mobile app that controls DJ hardware via Bluetooth and MIDI, implementing device input handling and control UI.",
+      "Development of a mobile application that works with a DJ controller to manage hardware operations.\nImplemented Bluetooth device communication, MIDI input handling, and control interfaces.",
     "project.dj.tasks.1": "Progress management and code reviews",
     "project.dj.tasks.2": "Development and team support",
 
@@ -273,7 +277,7 @@ const translations: Record<Language, Record<string, string>> = {
     "project.callcenter.role": "Bridge SE",
     "project.callcenter.period": "May 2021 - Sep 2021",
     "project.callcenter.description":
-      "Pre-study for a cloud call center service, evaluating architecture, call control, signaling, and feasibility.",
+      "Handled the pre-research phase for building a cloud call center service.\nFocused on call control and signaling, evaluating system architecture and feasibility,\nand outlining cloud configuration options and risks.",
     "project.callcenter.tasks.1": "Requirement analysis and technical research",
     "project.callcenter.tasks.2": "Client communication and progress reporting",
 
@@ -281,7 +285,7 @@ const translations: Record<Language, Record<string, string>> = {
     "project.music.role": "Bridge SE",
     "project.music.period": "Oct 2018 - Apr 2021",
     "project.music.description":
-      "Android & iOS app for music and video streaming, with purchase, download, playback, and ongoing maintenance.",
+      "Development and operation of a mobile app (Android/iOS) providing music and video streaming.\nSupported purchase, download, and playback features,\nmaintaining and enhancing existing functionality.",
     "project.music.tasks.1": "Onsite support in Japan",
     "project.music.tasks.2": "Development, testing, and code reviews",
     "project.music.tasks.3": "Client support",
@@ -290,7 +294,7 @@ const translations: Record<Language, Record<string, string>> = {
     "project.container.role": "PL / BSE",
     "project.container.period": "Mar 2018 - Oct 2018",
     "project.container.description":
-      "Web system integrating Rancher and Docker to manage projects, hosts, stacks, and container resources.",
+      "Built a web service that integrates with Rancher based on user requests\nto centrally create and manage container resources such as projects, hosts, stacks, and accounts.",
     "project.container.tasks.1": "Task and progress management",
     "project.container.tasks.2": "Research, testing, and code reviews",
     "project.container.tasks.3": "Client support",
@@ -299,6 +303,8 @@ const translations: Record<Language, Record<string, string>> = {
     "project.api.role": "Bridge SE",
     "project.api.period": "Apr 2017 - Feb 2018",
     "project.api.description": "Integration platform connecting AWS and NTT ECL services for enterprise clients.",
+    "project.api.description":
+      "Developed a web service that integrates with cloud providers such as AWS and NTT ECL based on user request data\n to control and link various cloud resources.\nAchieved resource operations and management in the cloud through external API integrations.",
     "project.api.tasks.1": "Task and progress management",
     "project.api.tasks.2": "Development, testing, and code reviews",
     "project.api.tasks.3": "Client support",
@@ -307,7 +313,7 @@ const translations: Record<Language, Record<string, string>> = {
     "project.disaster.role": "Developer",
     "project.disaster.period": "Apr 2015 - Nov 2016",
     "project.disaster.description":
-      "Community app enabling people to register and search safety information during disasters when connectivity is limited.",
+      "Developed a community application that lets people register and search safety information on government servers\nwhen internet access is limited during disasters (earthquakes, storms, etc.).\nIt supports emergency information sharing and complements social infrastructure.",
     "project.disaster.tasks.1": "Development",
     "project.disaster.tasks.2": "Testing",
   },
