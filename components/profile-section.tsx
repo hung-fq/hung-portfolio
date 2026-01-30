@@ -7,9 +7,15 @@ import { useLanguage } from "@/contexts/language-context"
 export function ProfileSection() {
   const { t } = useLanguage()
 
+  const birthDate = new Date(1989, 5, 10)
+  const today = new Date()
+  let age = today.getFullYear() - birthDate.getFullYear()
+  const birthdayThisYear = new Date(today.getFullYear(), birthDate.getMonth(), birthDate.getDate())
+  if (today < birthdayThisYear) age -= 1
+
   const profileItems = [
     { icon: User, label: t("profile.nationality"), value: t("profile.nationality.value") },
-    { icon: Calendar, label: t("profile.age"), value: "36" },
+    { icon: Calendar, label: t("profile.age"), value: String(age) },
     { icon: MapPin, label: t("profile.location"), value: t("profile.location.value") },
     { icon: Languages, label: t("profile.jlpt"), value: t("profile.jlpt.value") },
   ]
