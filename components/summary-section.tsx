@@ -57,6 +57,7 @@ export function SummarySection() {
                 <li>{t("strengths.item.1")}</li>
                 <li>{t("strengths.item.2")}</li>
                 <li>{t("strengths.item.3")}</li>
+                <li>{t("strengths.item.4")}</li>
               </ul>
             </CardContent>
           </Card>

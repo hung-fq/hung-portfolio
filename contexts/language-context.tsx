@@ -32,6 +32,8 @@ const translations: Record<Language, Record<string, string>> = {
     "profile.location.value": "ベトナム・ホーチミン市",
     "profile.email": "メール",
     "profile.email.value": "hungfq@gmail.com",
+    "profile.jlpt": "日本語",
+    "profile.jlpt.value": "JLPT N2",
     "profile.experience": "経験概要",
     "profile.years.dev": "年 ソフトウェア開発",
     "profile.years.bse": "年 ブリッジSE",
@@ -64,6 +66,7 @@ const translations: Record<Language, Record<string, string>> = {
     "strengths.item.1": "モバイルとバックエンドの両方で要件〜運用まで一貫対応",
     "strengths.item.2": "日本向け開発でのブリッジ・PM経験により合意形成が得意",
     "strengths.item.3": "品質と納期のバランスを意識した進行とレビュー",
+    "strengths.item.4": "日本語能力：JLPT N2",
 
     // Skills
     "skills.title": "スキル",
@@ -95,7 +98,7 @@ const translations: Record<Language, Record<string, string>> = {
     "project.freelance.role": "フリーランス",
     "project.freelance.period": "2025年9月〜現在",
     "project.freelance.description":
-      "AIコーディング支援ツールを活用し、Webアプリケーションの設計・実装・デプロイまでを一貫して担当。\n要件整理、画面設計、アーキテクチャ設計は人手で行い、実装フェーズにおいてAIを活用することで開発効率の向上を実現。",
+      "AI支援を取り入れ、要件分析・設計・実装・デプロイまで一貫して担当。\n全工程でAIを活用しつつ、最終的な判断は人がレビュー・評価した上で決定する運用とした。",
     "project.freelance.tasks.1": "Webアプリケーションの設計および実装",
     "project.freelance.tasks.2": "AI支援ツールを用いたコーディング効率化",
     "project.freelance.tasks.3": "フロントエンド／バックエンド実装",
@@ -105,7 +108,7 @@ const translations: Record<Language, Record<string, string>> = {
     "project.school.role": "プロジェクトマネージャー",
     "project.school.period": "2022年7月〜2025年1月",
     "project.school.description":
-      "日本の学校運営を支援するWebアプリケーションの開発。\n出席管理、成績管理、連絡機能、日誌機能などの各種業務機能を提供し、\n教職員および関係者間の情報共有や業務効率化を目的としたシステムである。",
+      "日本の学校運営を支援するWebアプリケーションの開発。\n出席管理、成績管理、連絡機能、日誌機能などの各種業務機能に加え、その他多数の機能を提供し、\n教職員および関係者間の情報共有や業務効率化を目的としたシステムである。",
     "project.school.tasks.1": "プロジェクト計画および進行管理",
     "project.school.tasks.2": "見積作成、スケジュール管理",
     "project.school.tasks.3": "タスク／進捗管理",
@@ -184,6 +187,8 @@ const translations: Record<Language, Record<string, string>> = {
     "profile.location.value": "Ho Chi Minh City, Vietnam",
     "profile.email": "Email",
     "profile.email.value": "hungfq@gmail.com",
+    "profile.jlpt": "Japanese",
+    "profile.jlpt.value": "JLPT N2",
     "profile.experience": "Experience Summary",
     "profile.years.dev": "Years Software Development",
     "profile.years.bse": "Years Bridge SE",
@@ -217,6 +222,7 @@ const translations: Record<Language, Record<string, string>> = {
     "strengths.item.1": "End-to-end delivery across mobile and backend, from requirements to operations.",
     "strengths.item.2": "Strong alignment and communication through bridge/PM experience for Japanese clients.",
     "strengths.item.3": "Balances quality and delivery with disciplined reviews.",
+    "strengths.item.4": "Japanese proficiency: JLPT N2.",
 
     // Skills
     "skills.title": "Skills",
@@ -248,7 +254,7 @@ const translations: Record<Language, Record<string, string>> = {
     "project.freelance.role": "Freelance",
     "project.freelance.period": "Sep 2025 - Present",
     "project.freelance.description":
-      "Led end-to-end web app delivery using AI coding assistance, from design to implementation and deployment.\nHandled requirements, screen design, and architecture manually while improving development efficiency with AI in implementation.",
+      "Led end-to-end web app delivery with AI assistance, from requirement analysis and design through implementation and deployment.\nAI was used throughout, while humans reviewed, evaluated, and made final decisions.",
     "project.freelance.tasks.1": "Designed and implemented web applications",
     "project.freelance.tasks.2": "Improved coding efficiency with AI-assisted tools",
     "project.freelance.tasks.3": "Implemented front-end and back-end features",
@@ -258,7 +264,7 @@ const translations: Record<Language, Record<string, string>> = {
     "project.school.role": "Project Manager",
     "project.school.period": "Jul 2022 - Jan 2025",
     "project.school.description":
-      "Development of a web application supporting Japanese school operations.\nIt provides attendance, grades, messaging, and daily reports\nto improve collaboration and efficiency among staff and stakeholders.",
+      "Development of a web application supporting Japanese school operations.\nIt provides attendance, grades, messaging, daily reports, and many other functions\nto improve collaboration and efficiency among staff and stakeholders.",
     "project.school.tasks.1": "Project planning and execution management",
     "project.school.tasks.2": "Estimation and schedule management",
     "project.school.tasks.3": "Task and progress tracking",
