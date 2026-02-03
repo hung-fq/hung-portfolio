@@ -11,10 +11,10 @@ export function HeroSection() {
       <div className="absolute top-8 left-0 w-16 h-px bg-primary/60 animate-fade-in" />
 
       <div className="space-y-10">
-        <div className="space-y-5 opacity-0 animate-fade-up">
+        <div className="space-y-4 opacity-0 animate-fade-up">
           <p className="text-[11px] font-medium tracking-[0.2em] uppercase text-primary">{t("hero.title")}</p>
-          <div className="space-y-2">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold tracking-tight text-foreground">
+          <div className="space-y-1.5">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight text-foreground">
               Pham Quoc Hung
             </h1>
             <p className="text-[12px] uppercase tracking-[0.3em] text-muted-foreground">ファム・クオック・フン</p>
@@ -22,14 +22,14 @@ export function HeroSection() {
         </div>
 
         <div className="grid gap-6 md:grid-cols-[1.2fr_0.8fr] md:items-center">
-          <p className="max-w-lg text-base md:text-lg leading-[1.8] text-muted-foreground opacity-0 animate-fade-up animation-delay-100">
+          <p className="max-w-2xl text-base md:text-lg leading-[1.7] text-muted-foreground opacity-0 animate-fade-up animation-delay-100">
             {t("hero.description")}
           </p>
-          <div className="flex items-center justify-center rounded-2xl border border-border/40 bg-secondary/20 p-2 opacity-0 animate-fade-up animation-delay-150">
+          <div className="flex w-fit items-center justify-center justify-self-start md:justify-self-end rounded-lg border border-border/40 bg-secondary/20 p-1.5 opacity-0 animate-fade-up animation-delay-150">
             <img
               src="/CV/Leo%20nui.jpg"
               alt="Leo nui"
-              className="h-44 w-full object-contain md:h-52"
+              className="h-48 w-auto object-contain md:h-56"
               loading="lazy"
             />
           </div>
