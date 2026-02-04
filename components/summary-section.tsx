@@ -9,12 +9,12 @@ export function SummarySection() {
 
   const summaryItems = [
     "summary.item.1",
+    "summary.item.6",
+    "summary.item.5",
     "summary.item.2",
     "summary.item.3",
-    "summary.item.4",
-    "summary.item.5",
-    "summary.item.6",
     "summary.item.7",
+    "summary.item.4",
   ]
 
   const educationItems = ["education.item.1", "education.item.2"]
@@ -58,6 +58,7 @@ export function SummarySection() {
                 <li>{t("strengths.item.2")}</li>
                 <li>{t("strengths.item.3")}</li>
                 <li>{t("strengths.item.4")}</li>
+                <li>{t("strengths.item.5")}</li>
               </ul>
             </CardContent>
           </Card>

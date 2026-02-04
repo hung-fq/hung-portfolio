@@ -46,7 +46,7 @@ const translations: Record<Language, Record<string, string>> = {
     "summary.item.1": "ソフトウェア開発分野で12年以上、ブリッジSE3年、PM2年の経験",
     "summary.item.2": "モバイルアプリケーションおよびバックエンドWebシステムの開発が得意",
     "summary.item.3": "Java/Springフレームワークでのバックエンド開発実績が豊富",
-    "summary.item.4": "MVC・RESTful・OOP・AOP・Builder/Observer/Factoryに精通",
+    "summary.item.4": "日本語能力：JLPT N2",
     "summary.item.5": "日本企業の開発プロセス・文化・業務ルールを理解",
     "summary.item.6": "日本オンサイト経験3年以上",
     "summary.item.7": "AI支援型開発を取り入れ、要件/設計の最終判断は人が責任を持って実施",
@@ -66,7 +66,8 @@ const translations: Record<Language, Record<string, string>> = {
     "strengths.item.1": "モバイルとバックエンドの両方で要件〜運用まで一貫対応",
     "strengths.item.2": "日本向け開発でのブリッジ・PM経験により合意形成が得意",
     "strengths.item.3": "品質と納期のバランスを意識した進行とレビュー",
-    "strengths.item.4": "日本語能力：JLPT N2",
+    "strengths.item.4": "責任感が強く、最後までやり抜く姿勢",
+    "strengths.item.5": "コードレビューおよびチームメンバーの指導・育成に対応可能",
 
     // Skills
     "skills.title": "スキル",
@@ -201,7 +202,7 @@ const translations: Record<Language, Record<string, string>> = {
     "summary.item.1": "12+ years in software development, including 3 years as Bridge SE and 2 years as Project Manager.",
     "summary.item.2": "Strong in mobile applications and backend web systems.",
     "summary.item.3": "Extensive backend development experience with Java/Spring.",
-    "summary.item.4": "Solid grasp of MVC, RESTful, OOP, AOP, and design patterns (Builder, Observer, Factory).",
+    "summary.item.4": "Japanese proficiency: JLPT N2.",
     "summary.item.5": "Familiar with Japanese development processes, culture, and business rules.",
     "summary.item.6": "3+ years of onsite experience in Japan.",
     "summary.item.7":
@@ -222,7 +223,8 @@ const translations: Record<Language, Record<string, string>> = {
     "strengths.item.1": "End-to-end delivery across mobile and backend, from requirements to operations.",
     "strengths.item.2": "Strong alignment and communication through bridge/PM experience for Japanese clients.",
     "strengths.item.3": "Balances quality and delivery with disciplined reviews.",
-    "strengths.item.4": "Japanese proficiency: JLPT N2.",
+    "strengths.item.4": "High sense of responsibility and strong follow-through.",
+    "strengths.item.5": "Experienced in code reviews and mentoring team members.",
 
     // Skills
     "skills.title": "Skills",
